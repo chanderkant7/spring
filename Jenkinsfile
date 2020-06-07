@@ -1,7 +1,7 @@
 pipeline {
   agent any
   stages {
-    stage('Chrckout') {
+    stage('Checkout Dev') {
       steps {
         echo 'Checking code from Git'
       }
